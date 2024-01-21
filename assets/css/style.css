@@ -1,0 +1,114 @@
+:root{
+    scroll-behavior: auto;
+}
+.home-content{
+    background-image:  linear-gradient(to right , rgba(214, 46, 51, 0.6) ,  rgba(214, 46, 51, 0.6)  ,  rgba(214, 46, 51, 0.6)  ) , url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    
+}
+.open-nav{
+    cursor: pointer;
+    width: fit-content;
+}
+.fs-6{
+    font-size: 13px;
+}
+.w-fit{
+    width: fit-content;
+}
+.my-10{
+    margin-top: 120px ;
+  margin-bottom: 120px ;
+}
+.my-7{
+    margin-top: 90px ;
+    margin-bottom: 90px ;
+}
+.h-0{
+    height: 0px;
+}
+.mb-7{
+    margin-bottom: 3.5rem;
+}
+.close{
+    cursor: pointer;
+}
+.side-nav{
+    position: fixed;
+    width: 0px;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    z-index: 5;
+}
+.side-nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.side-nav a , .side-nav i{
+    transition: 0.4s all;
+}
+.side-nav a:hover , .side-nav i:hover {
+    color:  rgba(214, 46, 51 , 0.4);
+
+}
+
+.singerOne ,.singerTwo , .singerThree , .singerFour {
+    background-color: rgb(230,130,133);
+    cursor: pointer;
+}
+.blockOne , .blockTwo , .blockThree , .blockFour   {
+    background-color: rgb(204,204,204);
+    display: block;
+    display: none;
+    
+    /* transition: 1s all; */
+}
+#duration{
+    background-image:   linear-gradient(to right , rgba(214, 46, 51, 0.6) ,  rgba(214, 46, 51, 0.6)  ,  rgba(214, 46, 51, 0.6)  ) , url(../img/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.box{
+    width: 250px;
+    height: 150px;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-contain{
+    color: #444444;
+}
+.contact-contain p{
+  color: #999999;
+}
+.icon-box{
+
+    box-sizing: border-box;
+    border: solid 1px #999;
+    width: 40px;
+    height: 40px;
+}
+
+.button{
+    background-color: #d62e33;
+    /* color: #fff; */
+}
+.number{
+    font-size: large;
+    color: #d62e33;
+}
+.box1:hover , .box2:hover , .box3:hover , .box4:hover , .box5:hover{
+    background-color: #d62e33;
+    color: white ;    
+}
+.box1 , .box2 , .box3 , .box4 , .box5{
+   transition: all 1 s;
+   text-align: center;
+   color: #777777;
+}
